@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-<img src="./src/main/resources/img/logo.png" alt="Origami" width="200">
+<img src="../src/main/resources/img/logo.png" alt="Origami" width="200">
 
 # Kafka sample
 </div>
