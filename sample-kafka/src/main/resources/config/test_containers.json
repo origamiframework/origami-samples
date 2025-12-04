@@ -1,0 +1,5 @@
+{
+  "kafka": {
+    "bootstrap-servers": "${kafka_container_bootstrap_servers}"
+  }
+}
