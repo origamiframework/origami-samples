@@ -12,5 +12,6 @@
 
     <modules>
         <module>sample-kafka</module>
+        <module>sample-hibernate</module>
     </modules>
 </project>

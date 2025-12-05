@@ -1,0 +1,10 @@
+{
+  "db": {
+    "host": "${postgres_container_host}",
+    "port": "${postgres_container_port}",
+    "name": "testdb",
+    "username": "postgres",
+    "password": "postgres",
+    "schema": "public"
+  }
+}
