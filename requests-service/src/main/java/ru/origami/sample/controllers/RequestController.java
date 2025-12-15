@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.origami.sample.db.entities.RequestEntity;
 import ru.origami.sample.db.repositories.RequestRepository;
 import ru.origami.sample.models.RequestDto;
+import ru.origami.sample.services.NotificationService;
 
 import java.net.URI;
 import java.util.List;
@@ -21,8 +22,11 @@ public class RequestController {
 
     private final RequestRepository requestRepository;
 
-    public RequestController(RequestRepository requestRepository) {
+    private final NotificationService notificationService;
+
+    public RequestController(RequestRepository requestRepository, NotificationService notificationService) {
         this.requestRepository = requestRepository;
+        this.notificationService = notificationService;
     }
 
     @Operation(summary = "Создать новый Request")
@@ -33,11 +37,12 @@ public class RequestController {
                 .setNote(requestDto.getNote());
 
         RequestEntity saved = requestRepository.save(entity);
-
         RequestDto response = new RequestDto()
                 .setId(saved.getId())
                 .setName(saved.getName())
                 .setNote(saved.getNote());
+
+        notificationService.sendMessageForNewRequest(response);
 
         return ResponseEntity
                 .created(URI.create("/api/v1/requests/%s".formatted(saved.getId())))
@@ -82,11 +87,12 @@ public class RequestController {
                     }
 
                     RequestEntity saved = requestRepository.save(entity);
-
                     RequestDto response = new RequestDto()
                             .setId(saved.getId())
                             .setName(saved.getName())
                             .setNote(saved.getNote());
+                    
+                    notificationService.sendMessageForChangeRequest(response);
 
                     return ResponseEntity.ok(response);
                 })

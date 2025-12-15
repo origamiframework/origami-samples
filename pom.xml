@@ -11,9 +11,10 @@
     <name>Origami Framework Samples Parent</name>
 
     <modules>
+        <module>requests-service</module>
         <module>sample-kafka</module>
         <module>sample-hibernate</module>
         <module>sample-rest</module>
-        <module>requests_service</module>
+        <module>sample-websocket</module>
     </modules>
 </project>

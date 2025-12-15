@@ -1,0 +1,6 @@
+{
+  "request.service": {
+    "requests.relative.uri": "/api/v1/requests",
+    "requests.by.id.relative.uri": "/api/v1/requests/{id}"
+  }
+}

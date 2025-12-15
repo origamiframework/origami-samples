@@ -1,0 +1,12 @@
+{
+  "requests.service": {
+    "url": "http://localhost",
+    "port": 8080
+  },
+  "websocket": {
+    "url": "localhost",
+    "port": 8080,
+    "endpoint": "api/ws-requests-service",
+    "with.wss": false
+  }
+}

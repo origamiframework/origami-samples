@@ -1,0 +1,12 @@
+{
+  "requests.service": {
+    "url": "${requests_service_container_host}",
+    "port": "${requests_service_container_port}"
+  },
+  "websocket": {
+    "url": "${requests_service_container_ws_host}",
+    "port": "${requests_service_container_port}",
+    "endpoint": "api/ws-requests-service",
+    "with.wss": false
+  }
+}
