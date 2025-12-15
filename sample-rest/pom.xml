@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.origamiframework</groupId>
-    <artifactId>origami-sample-hibernate</artifactId>
+    <artifactId>origami-sample-rest</artifactId>
     <version>${artifactVersion}</version>
     <packaging>jar</packaging>
 
-    <name>Origami Sample Hibernate</name>
+    <name>Origami Sample Rest</name>
 
     <parent>
         <groupId>ru.origamiframework</groupId>
@@ -32,7 +32,7 @@
     <dependencies>
         <dependency>
             <groupId>ru.origamiframework</groupId>
-            <artifactId>origami-framework-hibernate</artifactId>
+            <artifactId>origami-framework-rest</artifactId>
         </dependency>
         <dependency>
             <groupId>ru.origamiframework</groupId>

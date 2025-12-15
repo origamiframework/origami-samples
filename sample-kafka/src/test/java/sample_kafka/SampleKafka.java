@@ -1,5 +1,6 @@
 package sample_kafka;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import ru.origami.common.OrigamiHelper;
 import ru.origami.kafka.models.KafkaRecord;
@@ -10,7 +11,6 @@ import ru.origami.sample.steps.kafka.KafkaSteps;
 import ru.origami.sample.utils.DataHelper;
 import ru.origami.testit_allure.allure.java_commons.Feature;
 import ru.origami.testit_allure.annotations.Description;
-import ru.origami.testit_allure.annotations.DisplayName;
 import ru.origami.testit_allure.annotations.Link;
 import ru.origami.testit_allure.annotations.Story;
 

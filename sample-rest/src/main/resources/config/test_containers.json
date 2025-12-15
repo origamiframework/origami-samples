@@ -1,0 +1,6 @@
+{
+  "requests.service": {
+    "url": "${requests_service_container_host}",
+    "port": "${requests_service_container_port}"
+  }
+}

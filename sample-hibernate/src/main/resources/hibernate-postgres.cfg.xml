@@ -14,6 +14,6 @@
         <property name="show_sql">false</property>
         <property name="format_sql">false</property>
         <property name="useSSL">false</property>
-        <mapping class="ru.origami.sample.entity.Request"/>
+        <mapping class="ru.origami.sample.entities.Request"/>
     </session-factory>
 </hibernate-configuration>

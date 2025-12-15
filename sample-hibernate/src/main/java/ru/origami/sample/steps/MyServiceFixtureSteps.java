@@ -5,7 +5,7 @@ import ru.origami.common.environment.Environment;
 import ru.origami.hibernate.CommonFixtureSteps;
 import ru.origami.hibernate.models.DataBaseSessionProperties;
 import ru.origami.hibernate.models.EHibernateResource;
-import ru.origami.sample.entity.Request;
+import ru.origami.sample.entities.Request;
 import ru.origami.testit_allure.annotations.Step;
 
 import java.util.List;

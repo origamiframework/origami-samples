@@ -1,13 +1,13 @@
 package ru.origami.sample;
 
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import ru.origami.common.OrigamiHelper;
-import ru.origami.sample.entity.Request;
+import ru.origami.sample.entities.Request;
 import ru.origami.sample.steps.MyServiceFixtureSteps;
 import ru.origami.testit_allure.allure.java_commons.Feature;
 import ru.origami.testit_allure.annotations.Description;
-import ru.origami.testit_allure.annotations.DisplayName;
 import ru.origami.testit_allure.annotations.Link;
 import ru.origami.testit_allure.annotations.Story;
 
