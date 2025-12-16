@@ -16,5 +16,6 @@
         <module>sample-hibernate</module>
         <module>sample-rest</module>
         <module>sample-websocket</module>
+        <module>sample-ibm-mq</module>
     </modules>
 </project>
