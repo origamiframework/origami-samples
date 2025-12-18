@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.origamiframework</groupId>
-    <artifactId>origami-sample-rest</artifactId>
+    <artifactId>origami-sample-websocket</artifactId>
     <version>${artifactVersion}</version>
     <packaging>jar</packaging>
 
-    <name>Origami Sample Rest</name>
+    <name>Origami Sample WebSocket</name>
 
     <parent>
         <groupId>ru.origamiframework</groupId>
@@ -41,11 +41,6 @@
         <dependency>
             <groupId>ru.origamiframework</groupId>
             <artifactId>origami-framework-test-containers</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.22.1</version>
         </dependency>
     </dependencies>
 </project>

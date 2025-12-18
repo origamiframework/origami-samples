@@ -38,10 +38,5 @@
             <groupId>ru.origamiframework</groupId>
             <artifactId>origami-framework-test-containers</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.22.1</version>
-        </dependency>
     </dependencies>
 </project>
