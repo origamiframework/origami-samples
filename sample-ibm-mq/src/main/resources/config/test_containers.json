@@ -1,0 +1,10 @@
+{
+  "ibm.mq": {
+    "host": "${ibm_mq_container_host}",
+    "port": "${ibm_mq_container_port}",
+    "queue.manager": "${ibm_mq_container_queue_manager}",
+    "channel": "DEV.APP.SVRCONN",
+    "username": "${ibm_mq_container_username}",
+    "password": "${ibm_mq_container_password}"
+  }
+}
